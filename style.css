@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-nav{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+gap: 5em;
+height: 300px;
+/* background-color: whitesmoke; */
+}
+.left{
+    display: flex;
+height: 150px;
+padding: 10px;
+align-items: center;
+
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+padding: 100px;
+align-items:self-start;
+gap: 20px;
+
+}
