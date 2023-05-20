@@ -1,29 +1,108 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 .main-nav{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-gap: 5em;
-height: 300px;
-/* background-color: whitesmoke; */
+    width: 75%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(10, 10, 10, 0.123);
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 .left{
-    display: flex;
-height: 150px;
-padding: 10px;
-align-items: center;
-
+    display: grid;
+    place-content: center;
+}
+.logo{
+    width:10rem;
 }
 .right{
     display: flex;
     justify-content: space-between;
-    height: 150px;
-padding: 100px;
-align-items:self-start;
-gap: 20px;
+    gap: 1.5rem;
+}
+.logo1{
+height: 35px;
+padding: 1px 1.5rem;
+}
+.logo2{
+    border: 1px solid black;
+}
+.lower-nav{
+    width: 75%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+}
+a{
+color: black;
+text-decoration: none;
+font-size: 1.2rem;
+}
+a:hover{
+    text-decoration: underline;
+}
+.hero{
+    width: 100%;
+    height: 65vh;
+    background: url(images.png/OTK_award_banner_gradient.svg);
+    background-size: cover;
+    background-position-x:right ;
+    position: relative;
+}
+.text{
+    background-color: gold;
+    width: 25rem;
+    padding: 1rem;
+    position:absolute;
+    top: 4rem;
+    left: 12.5%;
+}
+.font{
+    font-size: 2rem;
+}
+.parent{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    width: 75%;
+    margin: 10px auto;
+    font-size: 2rem;
+    line-height: 35px;
+    padding-top: 2rem;
+    gap: px;
+    border-bottom: solid rgb(75, 72, 72) 1px;
+    padding-bottom: 2rem;
+    
+}
+.para1{
+    width: 70%;
+}
+.child{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 30%;
+    gap: 1.5rem;
 
+}
+.para2{
+    font-weight: 800;
+}
+.don1{
+    padding: 1px 1rem;
+    background-color: steelblue;
+    text-align: center;
+    width: 50%;
+}
+.don2{
+    color: white;
 }
